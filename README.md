@@ -1,20 +1,16 @@
 # RoadColors
 
-United States:
-Plot roads in a US city, coloring each by its designation (e.g. Street, Road, Avenue)
+This repo is a fork from https://github.com/erdavis1/RoadColors
 
-Before you get started, you’ll need to get a few things prepared:
+Here you can find some test with worldwide version of the program. 
 
-1. Find the lat/long point you’d like to be at the center of your map
-2. Identify the GEOIDs of counties that are within 15 miles of this point. This site is very helpful: https://census.missouri.edu/geocodes/
-3. Download roads shapefiles for the counties in step 2: 
-ftp://ftp2.census.gov/geo/tiger/TIGER2018/ROADS/
-4. Download feature names shapefiles for the counties in step 2: https://www2.census.gov/geo/tiger/TIGER2018/FEATNAMES/
-
-This code isn't as well commented as Canada or Worldwide, so you might want to start with either of those first.
-
-Canada:
-Plot roads in a Canadian city, coloring each by its designation
+From its readme:
 
 Worldwide:
 Plot roads in any worldwide city using OpenStreetMap data. It derives road designations from the road name. I only wrote this to work for countries that use English or Romance languages--it doesn't work for languages like German (which mashes the road designation into the road name with no spaces) or languages that don't use the Latin alphabet.
+
+You can find open street maps to download here: http://download.geofabrik.de/
+
+Extract the files in a folder and set the path into the R script.
+
+In order to play the script you will need the R language (here the Windows version https://cran.r-project.org/bin/windows/base/ ) and R Studio (download it here https://rstudio.com/products/rstudio/download/ )
